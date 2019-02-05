@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fti.Labs.Core", "Fti.Labs.Core\Fti.Labs.Core.csproj", "{080B50C8-D30F-45E9-97A3-874B9B837140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fti.Labs.Data", "Fti.Labs.Data\Fti.Labs.Data.csproj", "{9CE6122F-6EC7-41EC-9BDA-D8DF9C57483F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{87A77486-4600-45BB-9A2B-4D735FEE5AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fti.Labs.Data.Tests", "Fti.Labs.Data.Tests\Fti.Labs.Data.Tests.csproj", "{A6C24F51-2205-43E0-82B4-2DBD2847ACE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fti.Labs.Core.Tests", "Fti.Labs.Core.Tests\Fti.Labs.Core.Tests.csproj", "{CC099967-7B0D-4814-BBA5-6EE5ACBEEDF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fti.Labs.EventHandler", "Fti.Labs.Eventhandler\Fti.Labs.EventHandler.csproj", "{6B39FA05-E9E9-4F49-99C6-F174082B5578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{080B50C8-D30F-45E9-97A3-874B9B837140}.Debug|x64.ActiveCfg = Debug|x64
+		{080B50C8-D30F-45E9-97A3-874B9B837140}.Debug|x64.Build.0 = Debug|x64
+		{080B50C8-D30F-45E9-97A3-874B9B837140}.Release|x64.ActiveCfg = Release|x64
+		{080B50C8-D30F-45E9-97A3-874B9B837140}.Release|x64.Build.0 = Release|x64
+		{9CE6122F-6EC7-41EC-9BDA-D8DF9C57483F}.Debug|x64.ActiveCfg = Debug|x64
+		{9CE6122F-6EC7-41EC-9BDA-D8DF9C57483F}.Debug|x64.Build.0 = Debug|x64
+		{9CE6122F-6EC7-41EC-9BDA-D8DF9C57483F}.Release|x64.ActiveCfg = Release|x64
+		{9CE6122F-6EC7-41EC-9BDA-D8DF9C57483F}.Release|x64.Build.0 = Release|x64
+		{A6C24F51-2205-43E0-82B4-2DBD2847ACE4}.Debug|x64.ActiveCfg = Debug|x64
+		{A6C24F51-2205-43E0-82B4-2DBD2847ACE4}.Debug|x64.Build.0 = Debug|x64
+		{A6C24F51-2205-43E0-82B4-2DBD2847ACE4}.Release|x64.ActiveCfg = Release|x64
+		{A6C24F51-2205-43E0-82B4-2DBD2847ACE4}.Release|x64.Build.0 = Release|x64
+		{CC099967-7B0D-4814-BBA5-6EE5ACBEEDF6}.Debug|x64.ActiveCfg = Debug|x64
+		{CC099967-7B0D-4814-BBA5-6EE5ACBEEDF6}.Debug|x64.Build.0 = Debug|x64
+		{CC099967-7B0D-4814-BBA5-6EE5ACBEEDF6}.Release|x64.ActiveCfg = Release|x64
+		{CC099967-7B0D-4814-BBA5-6EE5ACBEEDF6}.Release|x64.Build.0 = Release|x64
+		{6B39FA05-E9E9-4F49-99C6-F174082B5578}.Debug|x64.ActiveCfg = Debug|x64
+		{6B39FA05-E9E9-4F49-99C6-F174082B5578}.Debug|x64.Build.0 = Debug|x64
+		{6B39FA05-E9E9-4F49-99C6-F174082B5578}.Release|x64.ActiveCfg = Release|x64
+		{6B39FA05-E9E9-4F49-99C6-F174082B5578}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6C24F51-2205-43E0-82B4-2DBD2847ACE4} = {87A77486-4600-45BB-9A2B-4D735FEE5AE8}
+		{CC099967-7B0D-4814-BBA5-6EE5ACBEEDF6} = {87A77486-4600-45BB-9A2B-4D735FEE5AE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {047A95CE-115B-4F6D-B3C4-96B8A55DA06B}
+	EndGlobalSection
+EndGlobal
